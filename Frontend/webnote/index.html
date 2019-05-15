@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Welcome to Webnote</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/landing-page.css" rel="stylesheet">
+
+  <script src="https://www.gstatic.com/firebasejs/5.11.1/firebase.js"></script>
+  <script src="background.js"></script>
+
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">webnote</a>
+      <a id="openLoginPage" class="btn btn-primary" href="#">Sign In</a>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">Start annotating the web more effectively and easier with webnote.</h1>
+        </div>
+        <div class="col-md-10 col-lg-8 col-xl-5 mx-auto">
+          <button type="submit" class="btn btn-block btn-lg btn-primary">Download the Chrome Extension!</button>
+          <!-- <form>
+            <div class="form-row"> -->
+              <!-- <div class="col-12 col-md-9 mb-2 mb-md-0">
+                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+              </div> -->
+              <!-- <div class="col-12 col-md-6">
+                <button type="submit" class="btn btn-block btn-lg btn-primary">Download the Chrome Extension!</button>
+              </div>
+            </div>
+          </form> -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Icons Grid -->
+  <section class="features-icons bg-light text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-screen-desktop m-auto text-primary"></i>
+            </div>
+            <h3>Annotate anywhere.</h3>
+            <p class="lead mb-0">Webnote works on research papers, articles, websites, and more!</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-layers m-auto text-primary"></i>
+            </div>
+            <h3>Work in groups.</h3>
+            <p class="lead mb-0">Colloborate with other members of your research team or study group.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-check m-auto text-primary"></i>
+            </div>
+            <h3>Find related articles and papers.</h3>
+            <p class="lead mb-0">Discover new research papers and news related to your annotations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Showcases -->
+  <section class="showcase">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/Woman-taking-notes-1600x900.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Annotate everything.</h2>
+          <p class="lead mb-0">With webnote, you can annotate anything you want: from research papers, news articles, PDFs, textbooks, and anything on the web! </p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/focus-group-moderator-tips.jpg');"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2>Work in groups.</h2>
+          <p class="lead mb-0">Ever wanted to share your notes and annotations with your research or study group? Now you can with webnote, which can seamlessly sync selected notes across multiple users.</p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/news-tsodotcom.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Find related articles and papers.</h2>
+          <p class="lead mb-0">With webnote, now you can find news articles and research papers related to what you're annotating. Highlighting a phrase or a concept will display recent papers and articles related to your topic!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials text-center bg-light">
+    <div class="container">
+      <h2 class="mb-5">Our Team</h2>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/Screen Shot 2019-04-23 at 7.13.14 PM.png" alt="">
+            <h5>Adi S.</h5>
+            <p class="font-weight-light mb-0">Stanford '22</p>
+            <p class="font-weight-light mb-0">FemGen Major</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/Screen Shot 2019-04-23 at 7.13.21 PM.png" alt="">
+            <h5>Alex L.</h5>
+            <p class="font-weight-light mb-0">Stanford '21</p>
+            <p class="font-weight-light mb-0">SymSys Major</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/Screen Shot 2019-04-23 at 7.13.27 PM.png" alt="">
+            <h5>Akshaya D.</h5>
+            <p class="font-weight-light mb-0">Stanford '22</p>
+            <p class="font-weight-light mb-0">CS Major</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/charlespanprofilepic.jpeg" alt="">
+            <h5>Charles P.</h5>
+            <p class="font-weight-light mb-0">Stanford '22</p>
+            <p class="font-weight-light mb-0">MCS Major</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="call-to-action text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h2 class="mb-4">Ready to get started? Download now!</h2>
+        </div>
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+          <button type="submit" class="btn btn-block btn-lg btn-primary">Download the Chrome Extension!</button>
+          <!-- <form> -->
+            <!-- <div class="form-row">
+              <div class="col-12 col-md-9 mb-2 mb-md-0">
+                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+              </div> -->
+              <!-- <div class="col-12 col-md-3">
+                <button type="submit" class="btn btn-block btn-lg btn-primary">Download the Chrome Extension!</button>
+              </div>
+            </div>
+          </form> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <ul class="list-inline mb-2">
+            <li class="list-inline-item">
+              <a href="#">About</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Contact</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Terms of Use</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ul>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-facebook fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
